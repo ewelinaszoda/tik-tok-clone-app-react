@@ -6,13 +6,15 @@ function App() {
   return (
     // BEM
     <div className="app">
-      <h1>hello! Let's built Tik Tok Clone</h1>
-      <div className="app__videos">
-        <Video />
-        <Video />
-        <Video />
-        <Video />
-      </div>
+      {/* center video only horizontal */}
+      {/* <center> */}
+        <div className="app__videos">
+          <Video />
+          <Video />
+          <Video />
+          <Video />
+        </div>
+      {/* </center> */}
     </div>
   );
 }
