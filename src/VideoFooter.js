@@ -9,19 +9,20 @@ const VideoFooter = () => {
       <div className="videoFooter__text">
         <h3>@rafehqazi</h3>
         <p>this is description</p>
-        <MusicNoteIcon />
-        <Ticker mode="smooth">
-          {({ index }) => (
-            <>
-
-            </>
-          )}
-
-        </Ticker>
+        <div className="videoFooter__ticker">
+          <MusicNoteIcon />
+          <Ticker mode="smooth">
+            {({ index }) => (
+              <>
+                <p>What up guys</p>
+              </>
+            )}
+          </Ticker>
+        </div>
       </div>
-      <img className="videoFooter__record" 
-      src="" 
-      alt=""
+      <img className="videoFooter__record"
+        src=""
+        alt=""
       />
     </div>
   )

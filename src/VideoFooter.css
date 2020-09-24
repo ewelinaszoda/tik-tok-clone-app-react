@@ -1,7 +1,8 @@
 .videoFooter {
   position: relative; 
-  bottom: 100px;
+  bottom: 150px;
   color: white;
+  margin-left: 40px;
   display: flex;
 }
 
@@ -11,10 +12,28 @@
 
 .videoFooter__record {
   animation: spinTheRecord infinite 5s linear;
-  height: 15px;
+  height: 50px;
   /* color */
   filter: invert(1);
 }
+
+.videoFooter__icon {
+  position: absolute;
+}
+
+.videoFooter__ticker  > .ticker {
+  height: fit-content;
+  margin-left: 30px;
+  width: 60%;
+}
+
+.videoFooter__test > h3 {
+ padding-bottom: 20px;
+}
+
+.videoFooter__ticker h1 {
+  padding-top: 7px;
+ }
 
 /* css animation */
 @keyframes spinTheRecord {
