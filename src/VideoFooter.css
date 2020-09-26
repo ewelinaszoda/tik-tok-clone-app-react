@@ -10,6 +10,10 @@
   flex: 1;
 }
 
+.videoFooter__text > p {
+  padding-bottom: 20px;
+}
+
 .videoFooter__record {
   animation: spinTheRecord infinite 5s linear;
   height: 50px;
