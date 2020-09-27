@@ -1,6 +1,8 @@
 import React, { useRef, useState } from 'react';
+import VideoFooter from './VideoFooter';
+import VideoSidebar from './VideoSidebar';
 import './Video.css';
-import VideoFooter from './VideoFooter'
+
 
 const Video = () => {
   const [playing, setPlaying] = useState(false)
@@ -29,8 +31,7 @@ const Video = () => {
       channel="evie" 
       description="tWe are the champions" 
       song="Usher - Yeah"/>
-      {/* <VideoFooter /> */}
-      {/* <VideoSidebar /> */}
+      <VideoSidebar />
     </div>
   )
 }
