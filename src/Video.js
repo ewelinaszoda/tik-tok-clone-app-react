@@ -31,7 +31,9 @@ const Video = () => {
       channel="evie" 
       description="tWe are the champions" 
       song="Usher - Yeah"/>
-      <VideoSidebar />
+      <VideoSidebar 
+      likes={likes} 
+      messages={messages}/>
     </div>
   )
 }
