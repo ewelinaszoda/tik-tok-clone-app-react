@@ -1,4 +1,5 @@
 .videoFooter {
+   /* parent position relative is important */
   position: relative; 
   bottom: 150px;
   color: white;
@@ -19,6 +20,9 @@
   height: 50px;
   /* color */
   filter: invert(1);
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
 
 .videoFooter__icon {
