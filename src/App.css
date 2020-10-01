@@ -3,7 +3,6 @@ html {
 }
 
 .app {
-  background-color: black;
   height: 100vh;
   /* center video horizontal and vertical */
   display: grid;
