@@ -5,6 +5,7 @@ html {
 .app {
   height: 100vh;
   /* center video horizontal and vertical */
+  background-color: black;
   display: grid;
   place-items: center;
 }

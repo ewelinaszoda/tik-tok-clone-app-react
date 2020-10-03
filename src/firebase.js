@@ -1,3 +1,5 @@
+import firebase from "firebase";
+
 const firebaseConfig = {
   apiKey: "AIzaSyARB9BdFtm7_ouues9d0WCDxwlv-Ql5bqk",
   authDomain: "tic-tok-react.firebaseapp.com",
@@ -8,3 +10,9 @@ const firebaseConfig = {
   appId: "1:906877756971:web:9d1376e82eeb68cd282c6e",
   measurementId: "G-F5D0412C8F"
 };
+
+const firebaseApp = firebase.initializeApp(firebaseConfig);
+
+const db = firebaseApp.firestore();
+
+export default db;
