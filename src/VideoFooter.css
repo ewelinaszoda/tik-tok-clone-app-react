@@ -22,7 +22,7 @@
   filter: invert(1);
   position: absolute;
   bottom: 0;
-  right: 0;
+  right: 20px;
 }
 
 .videoFooter__icon {
